@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Chronicle - First Login</title>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,800%7cCardo:400italic%7cMerriweather:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" type="text/css" href="css/responsive.css">
+      <style>
+         #wrap {
+         width: 600px;
+         margin: 0 auto;
+         }
+         #left_col {
+         float: left;
+         width: 300px;
+         }
+         #right_col {
+         float: right;
+         width: 300px;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="loader-wrapper">
+         <div id="loader"></div>
+      </div>
+      <main>
+         <header id="header">
+            <nav class="navbar navbar-default navbar-fixed-top">
+               <div class="container">
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     </button>
+                  </div>
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#hero">Home<span class="sr-only">(current)</span></a></li>
+                        <li><a data-scroll href="#free-chapter">get updates</a></li>
+                        <li><a data-scroll href="#reviews">reviews</a></li>
+                        <li><a data-scroll href="#pricing">get chronicle</a></li>
+                        <li><a data-scroll href="#author">author</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </header>
+         <section id="hero" class="hero page">
+            <div class="details">
+               <div class="container-custom group">
+                  <div class="package wow fadeInUp">
+                     <center><img src="images/book/334x500_b3mist_book.jpg" alt='published-img'></center>
+                     <br /><br />
+                     <button class="buy-now btn btn-block custom-button" onclick="window.location.href = 'https://www.amazon.com/dp/B084CY5Y4M/';">Available on Amazon</button>
+                  </div>
+                  <div class="features clearfix wow fadeInUp" data-wow-delay="0.3s">
+                     <h3 class="text-center">Chronicle Book 3</h3>
+                     <h1 class="text-center">Mist Taken</h1>
+                     <h5 class="text-center">by Kevin Murphy</h5>
+                     <blockquote>
+                        Dakkon’s in trouble. Things have gone horribly wrong.
+                        <p></p>
+                        But, so long as there’s still a glimmer of hope, it’s not too late, is it?
+                        <p></p>
+                        With such high stakes, failure isn’t an option. He’s got to stay crisp. Frosty. Focused.
+                        <p></p>
+                        Dakkon needs luck, skill, and a meteoric rise in power, however success won’t come so easily.
+                        <p></p>
+                        Nature is cruel. Predators come in all shapes and sizes, especially when the land is warped by magic.
+                        <p></p>
+                        Everything rests on Dakkon’s shoulders now, but perhaps someone can tell him:
+                        <p></p>
+                        Elves. Why must they all be so damned uppity?
+                     </blockquote>
+                     <center><img src="images/book/500x500_b3mist_audio.jpg" alt='published-img'  height="300" width="300"></center>
+                     <br />
+                     <button class="buy-now btn btn-block custom-button" onclick="window.location.href = 'https://www.amazon.com/gp/bookseries/B07G91LG9M/';">Audiobook Coming Soon</button>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="free-chapter" class="free-chapter page">
+            <div class="container wow fadeInUp">
+               <div class="row">
+                  <div class="col-md-12 main-heading">
+                     <h1 class="text-center"><span>Sign up to the newsletter for updates </span></h1>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="form-nav">
+                        <ul>
+                           <li class="text-center active first-step wow fadeInLeft" data-wow-delay="0.3s">first step</li>
+                           <li class="text-center second-step wow fadeInLeft" data-wow-delay="0.6s">second step</li>
+                        </ul>
+                     </div>
+                     <div class="free-chapter-form">
+                        <div class="form-wrapper form-1">
+                           <form id="mailchimp-subscribe" method="get" action="file.txt">
+                              <p class="subscription-failed"></p>
+                              <input type="text" name="lname" placeholder="Your Name" class="contact-input">
+                              <input type="email" name="email" placeholder="Email Address" class="contact-input">
+                              <button class="btn btn-block custom-button">Submit</button>
+                           </form>
+                        </div>
+                        <div class="form-wrapper form-2" style="display:none">
+                           <form id="mailchimp-subscribe-2">
+                              <p class="subscription-success"></p>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 hidden-xs hidden-sm">
+                     <figure class="free-chapter-img img-1">
+                        <img src="images/book/500x500_compound.png" class="img-responsive" alt='published-img'>
+                     </figure>
+                  </div>
+               </div>
+            </div>
+            <div class="container wow fadeInUp">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="free-chapter-form">
+                        <div class="form-wrapper form-1">
+                           20 randomly selected people who sign up for the newsletter will receive a free audiobook copy of Mist Taken after it’s released. (Redeemable through Audible)
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="reviews" class="reviews page">
+            <div class="container wow fadeInUp">
+               <h1 class="sr-only">Reviews</h1>
+               <div class="col-xs-12">
+                  <blockquote>
+                     <div class="col-xs-6">
+                        <p>"Once I started to read the book I couldn't put it down." - Frozen Dragon</p>
+                        <p>"Kevin Murphy hit the nail on the head with the Chronicle series." - incredible-fulk</p>
+                        <p>"Great read!" - J. Anderson</p>
+                        <p>"Loved it." - Kindle Customer</p>
+                        <p>"Thrilling." - Kindle Customer</p>
+                        <p>"LitRPG must read." - Kindle Customer</p>
+                        <p>"Couldn't put it down." - Amazon Customer</p>
+                        <p>"Enjoyed reading this!" - TAD</p>
+                        <p>"Five Stars" - Katie</p>
+                        <p>"I want more..." - Anthony A.</p>
+                        <p>"Wonderful LitRPG." - Amazon Customer</p>
+                        <p>"Unexpected great read." - Seattle Nitefall gaming</p>
+                        <p>"This book was so good, I immediately wanted another." - Kindle Customer</p>
+                        <p>"Really good." - Quikwitt</p>
+                        <p>"Great start that leaves you ready for more." - James</p>
+                        <p>"Great LitRPG." - Somerandomidiot</p>
+                        <p>"Keep writing Mr. Murphy. I'm waiting." - Amazon Customer</p>
+                        <p>"Great start." - Amazon Customer</p>
+                        <p>"Where's the next book?" - Kindle Customer</p>
+                        <p>"I can't wait for more!!" - Amazon Customer</p>
+                     </div>
+                     <div class="col-xs-6">
+                        <p>"Awesome read." - Uwwidb</p>
+                        <p>"Excellent read, enjoyed the whole book." Chad H. M.</p>
+                        <p>"Loved the book." - Kidlat</p>
+                        <p>"Great adventure. Can't wait for the next one!" - Tyler Hickman</p>
+                        <p>"Get this one it will not disappoint." - J.Ring1</p>
+                        <p>"Superb." - Garrison</p>
+                        <p>"Awesome book." - rbaucom</p>
+                        <p>"One of the better LitRPGs." - Max</p>
+                        <p>"Great." - Curtis J.</p>
+                        <p>"Five stars." - Amazon Customer</p>
+                        <p>"A well written addition to the litrpg genre." - Bart</p>
+                        <p>"Quality litRPG title." - R. Meeks</p>
+                        <p>"Great book." - Amazon Customer</p>
+                        <p>"Give it a shot." - James D.</p>
+                        <p>"Fun, engaging and well written." - Jeff</p>
+                        <p>"Surprisingly good." - TheBookWorm</p>
+                        <p>"Better than most in the genre." - Michael H.</p>
+                        <p>"A good read." - LitRPGPodcast</p>
+                        <p>"A Good read." - Michael R.</p>
+                        <p>"Buy it!" - Brtdarkness</p>
+                        <p>"A Pleasant Surprise." - Lance</p>
+                        <p>"Wow." - Kindle Customer</p>
+                     </div>
+                  </blockquote>
+               </div>
+               <div id="review-slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                  <div class="col-xs-12">
+                     <ol class="carousel-indicators">
+                        <li data-target="#review-slider" data-slide-to="0" class="active wow fadeInLeft" data-wow-delay="0.3s">lewis c.</li>
+                        <li data-target="#review-slider" data-slide-to="1" class="wow fadeInLeft" data-wow-delay="0.6s">stephen n.</li>
+                        <li data-target="#review-slider" data-slide-to="2" class="wow fadeInLeft" data-wow-delay="0.9s">repub a.</li>
+                        <li data-target="#review-slider" data-slide-to="3" class="wow fadeInLeft" data-wow-delay="1.2s">jordan c.</li>
+                     </ol>
+                  </div>
+                  <div class="col-xs-12">
+                     <div class="row">
+                        <div class="carousel-inner" role="listbox">
+                           <div class="item active clearfix fadeInUp delay-2">
+                              <div class="col-xs-12">
+                                 <blockquote>
+                                    Well written and edited (a blessing in itself); good pacing, interesting characters and engaging storyline with plenty of action. I want more! Write, man! Write!
+                                 </blockquote>
+                              </div>
+                              <div class="col-xs-12 blockquote-cite">
+                                 <div class="row no-gutter">
+                                    <div class="col-xs-2 col-xs-offset-4 col-sm-2 col-sm-offset-5 col-md-1 col-md-offset-6">
+                                       <span class="cite-img"><img src="images/reviews/5star.png" class="img-responsive" alt='published-img'></span>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-5 col-md-5">
+                                       <div class="cite-right">
+                                          <span class="cite-name">Lewis C.</span>
+                                          <span class="cite-url"><a href="https://www.amazon.com/gp/customer-reviews/R2XNYE7QLSIVQL/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=1973313065">amazon.com</a></span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="item clearfix fadeInUp delay-2">
+                              <div class="col-xs-12">
+                                 <blockquote>
+                                    The story and universe are relatively unique. The reader doesn't get to learn a lot about the main character outside the game, just enough to give his life perspective. The majority of the story happens in the world of Chronicle.
+                                 </blockquote>
+                              </div>
+                              <div class="col-xs-12 blockquote-cite">
+                                 <div class="row no-gutter">
+                                    <div class="col-xs-2 col-xs-offset-4 col-sm-2 col-sm-offset-5 col-md-1 col-md-offset-6">
+                                       <span class="cite-img"><img src="images/reviews/5star.png" class="img-responsive" alt='published-img'></span>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-5 col-md-5">
+                                       <div class="cite-right">
+                                          <span class="cite-name">Stephen N.</span>
+                                          <span class="cite-url"><a href="https://www.amazon.com/gp/customer-reviews/R3NNCN9RX29CFX/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=1973313065">amazon.com</a></span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="item clearfix fadeInUp delay-2">
+                              <div class="col-xs-12">
+                                 <blockquote>
+                                    I enjoyed the writing immensely. I found the main character to be relatable and sympathetic - unlike many in the LitRPG genre, he is neither a smartass nor a juvenile. He's instead someone who is primarily enjoying himself and taking in his surroundings with a large dash of wonder and excitement. There are obviously plot hooks scattered throughout the story but it adds to the sense of adventuring and taking in a new world instead of "oh, this is a sign of plot anchor #4". The progression is measured and helps to illuminate the world, not be in and of itself a barrier to the story. I am ready to read the next one in the series.
+                                 </blockquote>
+                              </div>
+                              <div class="col-xs-12 blockquote-cite">
+                                 <div class="row no-gutter">
+                                    <div class="col-xs-2 col-xs-offset-4 col-sm-2 col-sm-offset-5 col-md-1 col-md-offset-6">
+                                       <span class="cite-img"><img src="images/reviews/5star.png" class="img-responsive" alt='published-img'></span>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-5 col-md-5">
+                                       <div class="cite-right">
+                                          <span class="cite-name">Repub A.</span>
+                                          <span class="cite-url"><a href="https://www.amazon.com/gp/customer-reviews/R16VV6YYPU2A40/ref=cm_cr_getr_d_rvw_ttl?ie=UTF8&ASIN=1973313065">amazon.com</a></span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="item clearfix fadeInUp delay-2">
+                              <div class="col-xs-12">
+                                 <blockquote>
+                                    Great addition to the LitRPG genre. If you're a fan then this is worth the read.
+                                 </blockquote>
+                              </div>
+                              <div class="col-xs-12 blockquote-cite">
+                                 <div class="row no-gutter">
+                                    <div class="col-xs-2 col-xs-offset-4 col-sm-2 col-sm-offset-5 col-md-1 col-md-offset-6">
+                                       <span class="cite-img"><img src="images/reviews/5star.png" class="img-responsive" alt='published-img'></span>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-5 col-md-5">
+                                       <div class="cite-right">
+                                          <span class="cite-name">Jordan C.</span>
+                                          <span class="cite-url"><a href="https://www.amazon.com/gp/customer-reviews/R9OS9PCI9XIXH/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=1973313065">amazon.com</a></span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="pricing" class="pricing page">
+            <div class="container">
+               <div class="row">
+                  <div class="main-heading clearfix">
+                     <div class="col-md-12 text-center">
+                        <h1 class="text-center">Audiobook <span>,</span> Ebook <span>, &</span> Paperback</h1>
+                        <h3 class="text-center">Audiobooks narrated by award-winning Nick Podehl</h3>
+                     </div>
+                  </div>
+                  <div id="pricing-slider" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                     <div class="col-md-12 pricing-nav">
+                        <ol class="carousel-indicators">
+                           <li data-target="#pricing-slider" data-slide-to="0" class="active wow fadeInLeft" data-wow-delay="0.3s">Audiobook</li>
+                           <li data-target="#pricing-slider" data-slide-to="1" class="wow fadeInLeft" data-wow-delay="0.6s">Ebook</li>
+                           <li data-target="#pricing-slider" data-slide-to="2" class="wow fadeInLeft" data-wow-delay="0.6s">Paperback</li>
+                        </ol>
+                     </div>
+                     <div class="col-md-10 col-md-offset-1 wow fadeInUp">
+                        <div class="carousel-inner" role="listbox">
+                           <!--AUDIO-->
+                           <div class="item  fadeInUp delay-2 animated active">
+                              <div class="row">
+                                                                   <div class="col-md-5 pricing-book">
+                                    <img src="images/book/500x500_b1first_audio.jpg" class="img-responsive" alt='published-img'>
+                                 </div>
+                                 <div class="col-md-5">
+                                    <div class="price text-center">
+                                       <span class="pricing-dollar">$</span><span class="pricing-number">24.95</span>
+                                    </div>
+                                    <ul>
+                                       <li>Chronicle: First Login</li>
+                                       <li>Audio - Book One</li>
+                                       <li>11h 47m</li>
+                                       <li>Narrated by Nick Podehl</li>
+                                    </ul>
+                                    <button class="buy-now btn btn-block custom-button" onclick="window.location.href = 'https://www.audible.com/pd/First-Login-Audiobook/B07L8N4DLM?source_code=AUDFPWS0223189MWT-BK-ACX0-136396&ref=acx_bty_BK_ACX0_136396_rh_us';">Get Audio</button>
+                                 </div>
+                              </div>
+                              <br />
+                              <br />
+                              <div class="row">
+                                                                   <div class="col-md-5 pricing-book">
+                                    <img src="images/book/500x500_b2trial_audio.jpg" class="img-responsive" alt='published-img'>
+                                 </div>
+                                 <div class="col-md-5">
+                                    <div class="price text-center">
+                                       <span class="pricing-dollar">$</span><span class="pricing-number">24.95</span>
+                                    </div>
+                                    <ul>
+                                       <li>Chronicle: Trial and Flame</li>
+                                       <li>Audio - Book Two</li>
+                                       <li>12h 12m</li>
+                                       <li>Narrated by Nick Podehl</li>
+                                    </ul>
+                                    <button class="buy-now btn btn-block custom-button" onclick="window.location.href = 'https://www.audible.com/pd/Trial-and-Flame-Audiobook/B07VHFLDZR?pf_rd_p=10be84a5-3a35-458a-8529-0c4e5c3dcd9c&pf_rd_r=FBG371Z82112YHX6H7V9&ref=a_pd_First-_c5_adblp13nvrPi_1_1';">Get Audio</button>
+                                 </div>
+                              </div>
+                              <br />
+                              <br />
+                              <div class="row">
+                                   <div class="col-md-5 pricing-book">
+                                    <img src="images/book/500x500_b3mist_audio.jpg" class="img-responsive" alt='published-img'>
+                                 </div>
+                                 <div class="col-md-5">
+                                    <div class="price text-center">
+                                       <p></p>
+                                       <span class="pricing-dollar">$</span><span class="pricing-number">34.95</span>
+                                    </div>
+                                    <ul>
+                                       <li>Chronicle: Mist Taken</li>
+                                       <li>Audio - Book Two</li>
+                                       <li>?h ?m</li>
+                                       <li>Narrated by Nick Podehl</li>
+                                    </ul>
+                                    <button class="buy-now btn btn-block custom-button" onclick="window.location.href = 'https://www.amazon.com/gp/bookseries/B07G91LG9M/';">Coming Soon</button>
+                                 </div>
+                              </div>
+                           </div>
+                           <!--EBOOK-->
+                           <div class="item  fadeInUp delay-2 animated">
+                              <div class="row">
+                                                                   <div class="col-md-5 pricing-book">
+                                    <img src="images/book/334x500_b1first_book.jpg" class="img-responsive" alt='published-img'>
+                                 </div>
+                                 <div class="col-md-5">
+                                    <div class="price text-center">
+                                       <span class="pricing-dollar">$</span><span class="pricing-number">4.99</span>
+                                    </div>
+                                    <ul>
+                                        <li><em>Read it for free with Kindle Unlimited</em></li>
+                                       <li>Chronicle: First Login</li>
+                                       <li>EBook - Book One</li>
+                                       <li>273 Pages</li>
+                                    </ul>
+                                    <button class="buy-now btn btn-block custom-button" onclick="window.location.href = 'https://www.amazon.com/dp/B0778VVK58/';">Get EBook</button>
+                                 </div>
+
+                              </div>
+                              <br />
+                              <br />
+                              <div class="row">
+                                                                   <div class="col-md-5 pricing-book">
+                                    <img src="images/book/334x500_b2trial_book.jpg" class="img-responsive" alt='published-img'>
+                                 </div>
+                                 <div class="col-md-5">
+                                    <div class="price text-center">
+                                       <span class="pricing-dollar">$</span><span class="pricing-number">4.99</span>
+                                    </div>
+                                    <ul>
+                                        <li><em>Read it for free with Kindle Unlimited</em></li>
+                                       <li>Chronicle: Trial and Flame</li>
+                                       <li>EBook - Book Two</li>
+                                       <li>278 Pages</li>
+                                    </ul>
+                                    <button class="buy-now btn btn-block custom-button" onclick="window.location.href = 'https://www.amazon.com/Trial-Flame-Chronicle-Book-2-ebook/dp/B07FCP3KK7/ref=pd_sim_351_1/142-5195098-0772311?_encoding=UTF8&pd_rd_i=B07FCP3KK7&pd_rd_r=0ca30520-7cc5-4396-b98e-002524674a5f&pd_rd_w=7LiSi&pd_rd_wg=FYzut&pf_rd_p=929b877a-7078-4f5f-a05d-3c4dcec3eb17&pf_rd_r=QC2GH63H4QJC5YZNQP5C&psc=1&refRID=QC2GH63H4QJC5YZNQP5C';">Get EBook</button>
+                                 </div>
+
+                              </div>
+                              <br />
+                              <br />
+                              <div class="row">
+                                                                   <div class="col-md-5 pricing-book">
+                                    <img src="images/book/334x500_b3mist_book.jpg" class="img-responsive" alt='published-img'>
+                                 </div>
+                                 <div class="col-md-5">
+                                    <div class="price text-center">
+                                       <p></p>
+                                       <span class="pricing-dollar">$</span><span class="pricing-number">5.99</span>
+                                    </div>
+                                    <ul>
+                                        <li><em>Read it for free with Kindle Unlimited</em></li>
+                                       <li>Chronicle: Mist Taken</li>
+                                       <li>EBook - Book Three</li>
+                                       <li>? Pages</li>
+                                    </ul>
+                                    <button class="buy-now btn btn-block custom-button" onclick="window.location.href = 'https://www.amazon.com/dp/B084CY5Y4M/';">Get EBook</button>
+                                 </div>
+
+                              </div>
+                           </div>
+                           <!--PAPERBACK-->
+                           <div class="item  fadeInUp delay-2 animated">
+                              <div class="row">
+                                                                   <div class="col-md-5 pricing-book">
+                                    <img src="images/book/334x500_b1first_book.jpg" class="img-responsive" alt='published-img'>
+                                 </div>
+                                 <div class="col-md-5">
+                                    <div class="price text-center">
+                                       <span class="pricing-dollar">$</span><span class="pricing-number">16.99</span>
+                                    </div>
+                                    <ul>
+                                       <li>Chronicle: First Login</li>
+                                       <li>Paperback - Book One</li>
+                                       <li>271 Pages</li>
+                                    </ul>
+                                    <button class="buy-now btn btn-block custom-button" onclick="window.location.href = 'https://www.amazon.com/First-Login-Chronicle-Kevin-Murphy/dp/1973313065/ref=pd_sbs_14_1/142-5195098-0772311?_encoding=UTF8&pd_rd_i=1973313065&pd_rd_r=dc71d100-86a8-41ca-a4e2-de05ffa393d3&pd_rd_w=Td3WO&pd_rd_wg=wHqZX&pf_rd_p=bdd201df-734f-454e-883c-73b0d8ccd4c3&pf_rd_r=YNFC4W9N40AYYRPPV9AF&psc=1&refRID=YNFC4W9N40AYYRPPV9AF';">Get Paperback</button>
+                                 </div>
+
+                              </div>
+                              <br />
+                              <br />
+                              <div class="row">
+                                                                   <div class="col-md-5 pricing-book">
+                                    <img src="images/book/334x500_b2trial_book.jpg" class="img-responsive" alt='published-img'>
+                                 </div>
+                                 <div class="col-md-5">
+                                    <div class="price text-center">
+                                       <span class="pricing-dollar">$</span><span class="pricing-number">16.99</span>
+                                    </div>
+                                    <ul>
+                                       <li>Chronicle: Trial and Flame</li>
+                                       <li>Paperback - Book Two</li>
+                                       <li>276 Pages</li>
+                                    </ul>
+                                    <button class="buy-now btn btn-block custom-button" onclick="window.location.href = 'https://www.amazon.com/Trial-Flame-Chronicle-Kevin-Murphy/dp/1718065558/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=';">Get Paperback</button>
+                                 </div>
+
+                              </div>
+                              <br />
+                              <br />
+                              <div class="row">
+                                                                   <div class="col-md-5 pricing-book">
+                                    <img src="images/book/334x500_b3mist_book.jpg" class="img-responsive" alt='published-img'>
+                                 </div>
+                                 <div class="col-md-5">
+                                    <div class="price text-center">
+                                       <p></p>
+                                       <span class="pricing-dollar">$</span><span class="pricing-number">-</span>
+                                    </div>
+                                    <ul>
+                                       <li>Not yet Available</li>
+                                    </ul>
+                                    <button class="buy-now btn btn-block custom-button" onclick="window.location.href = 'https://www.amazon.com/dp/B084CY5Y4M/';">Coming soon</button>
+                                 </div>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+            </div>
+         </section>
+         <section id="author" class="author page">
+            <div class="container wow fadeInUp">
+               <div class="row">
+                  <div class="col-md-8">
+                     <div class="row">
+                        <div class="col-xs-12">
+                           <h1 class="text-center">About the <span>author</span></h1>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1 visible-xs visible-sm">
+                           <img src="images/author/1.jpg" class="img-responsive" alt='published-img'>
+                        </div>
+                        <div class="col-md-6">
+                           <p>Kevin is committed to developing deep, rich worlds beyond what's written on the page. Before he wrote tales of adventure, he was a fan of fantasy, sci-fi, and LitRPG/Gamelit. The influences of these genres are heavily present in his works.</p>
+                        </div>
+                        <div class="col-md-6">
+                           <p>Rather than tying a story to one, static location, Kevin strives to have his characters dive into fresh situations, discover new challenges, and uncover secrets hidden throughout the vast world. Most notably, he believes that books about adventure should involve a fair bit of adventuring.</p>
+                           <ul class="author-social">
+                              <li class="wow fadeInLeft" data-wow-delay="0.3s">
+                                 <a href="https://www.facebook.com/ChronicleTheBook/"><i class="fa fa-facebook"></i></a>
+                              </li>
+                              <li class="wow fadeInLeft" data-wow-delay="0.5s">
+                                 <a href="https://twitter.com/TheChronCast"><i class="fa fa-twitter"></i></a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 hidden-xs hidden-sm">
+                     <img src="images/author/1.jpg" class="img-responsive" alt='published-img'>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="cta" class="cta page">
+            <div class="container wow fadeInUp">
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 text-center">
+                     <h1><span>Are you ready to </span>slow time?</h1>
+                  </div>
+                  <div class="col-sm-8 col-sm-offset-2">
+                     <button class="buy-now btn btn-block custom-button" onclick="window.location.href = ' https://www.amazon.com/gp/bookseries/B07G91LG9M/';">Buy Now</button>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <footer id="footer" class="footer page">
+            <div class="container wow fadeInUp">
+               <div class="row">
+                  <div class="col-md-6 footer-left">
+                     <div class="row">
+                        <div class="col-xs-6">
+                           <div class="footer-link footer-link-2">
+                              <h4>ChronicleTheBook.com</h4>
+                              <h4>ChronCast.net</h4>
+                              <ul>
+                                 <li class="active"><a href="#hero">HOME<span class="sr-only">(current)</span></a></li>
+                                 <li><a data-scroll href="#free-chapter">UPDATES</a></li>
+                                 <li><a data-scroll href="#reviews">REVIEWS</a></li>
+                                 <li><a data-scroll href="#pricing">GET CHRONICLE</a></li>
+                                 <li><a data-scroll href="#author">AUTHOR</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-5 col-md-offset-1 footer-text">
+                     <p><img src="images/logo.png" class="img-responsive" alt='published-img'></p>
+                     <span>Questions? Comments? Criticism? kevin@ChronCast.net</span>
+                     <p></p>
+                     <span>© 2019 ChronicleTheBook.com</span>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </main>
+      <script src="js/jquery-1.11.2.min.js"></script>
+      <script src="js/jquery.magnific-popup.min.js"></script>
+      <script src="js/jquery.ajaxchimp.min.js"></script>
+      <script src="js/modernizr-custom.js"></script>
+      <script src="js/jquery.easing.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/scripts.js"></script>
+   </body>
+</html>
